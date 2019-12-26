@@ -1,7 +1,29 @@
-# RoutingDemo
+# Angular Routing Demo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
+## Tutorial
+https://www.youtube.com/watch?v=GKU0LtH8bzU&list=PLC3y8-rFHvwhBRAgFinJR8KHIrCdTkZcZ&index=1
+
+## Create Project
+```
+$ ng new routing-demo --routing
+```
+## Create Components
+```
+ng g c department-list
+
+# -it: inline template, -is: inline styles
+ng g c department-list -it -is
+ng g c department-detail -it -is
+ng g c department-overview -it -is
+ng g c department-contact -it -is
+
+ng g c employee-list
+ng g c employee-list  -it -is
+
+ng g c page-not-found -it -is
+```
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
